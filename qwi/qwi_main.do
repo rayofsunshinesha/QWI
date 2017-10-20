@@ -1,5 +1,4 @@
 * qwi_main (20170104)
-* calls qwi_secondary.do in response to user input
 * process 6 quarters (t-4 through t+1) of wr-qcew files
 * produce 1 quarter (t) of qwi-enhanced records
 
