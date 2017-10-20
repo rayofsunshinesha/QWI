@@ -1,4 +1,5 @@
 * qwi_main (20170104)
+* calls qwi_secondary.do in response to user input
 * process 6 quarters (t-4 through t+1) of wr-qcew files
 * produce 1 quarter (t) of qwi-enhanced records
 
@@ -10,11 +11,11 @@ set linesize 200
 
 * global reference $TEMP uses available memory for temp files
 * global references $xxx defines path options below
-global pgm "/yourpath/yourfolder"
-global log "/yourpath/yourfolder"
-global impw "/yourpath/yourfolder"
-global impq "/yourpath/yourfolder"
-global dpr "/yourpath/yourfolder"
+global pgm "/workshop/pgm/qwi/qwi_new"
+global log "/workshop/pgm/qwi/qwi_new/log"
+global impw "/workshop/dproducts/wr/itw"
+global impq "/workshop/dproducts/wr/itq"
+global dpr "/workshop/dproducts/qwi/qwi_new"
 
 *** qwi_aztec.do
 *** process itq-itw for qwi work
