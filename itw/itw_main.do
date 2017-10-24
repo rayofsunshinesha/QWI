@@ -8,13 +8,13 @@ set more off
 
 * global reference $TEMP uses available memory for temp files
 * global references $xxx defines path options below
-global pgm "/workshop/pgm/wr"
-global log "/workshop/pgm/wr/log"
-global impa "/workshop/import/wr/ides_wr"
-global impb "/workshop/import/wr/census_wr"
-global impc "/workshop/import/wr/census_wr"
-global impd "/workshop/import/wr/census_wr"
-global dpr "/workshop/dproducts/wr/itw"
+global pgm "/yourpath/yourfolder"
+global log "/yourpath/yourfolder"
+global impa "/yourpath/yourfolder"
+global impb "/yourpath/yourfolder"
+global impc "/yourpath/yourfolder"
+global impd "/yourpath/yourfolder"
+global dpr "/yourpath/yourfolder"
 
 * specifications for employer files to be processed
 * (wr source data and format changes over time)
