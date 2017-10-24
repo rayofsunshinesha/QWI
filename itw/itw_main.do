@@ -1,5 +1,4 @@
 * itw_main (20171006)
-* calls itw_secondary.do in response to user input
 * validate ilui employer files, save dta
 
 clear
