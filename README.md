@@ -8,20 +8,21 @@ We develop a series of code using STATA to process raw QCEW and Wage record to c
 ## 1. itq: procecss QCEW files
 
 Goal: 
-- clean up , 
-- construct, 
-- and 
+- import QCEW files in the right version 
+- construct non-duplicate ui account number records file 
 
 ## 2. itw: process Wage record files
 
 Goal:
-- clean up , 
-- construct, 
-- and
+- import wage record files in the right version 
+- construct non-zero wage records file 
 
 ## 3. qwi: combine itq and itw results to construct qwi indicators
 
 Goal: 
+- reshape the date and link job at t from t-4 to t+1
+- construct measures that mark different type of employment for the job at time t
+- refine measures through predecessor-successor processing
 
 ### qwi_aztec.do
 process itq & itq to get ready
@@ -48,6 +49,7 @@ Goal:
 ## 4. qwi_j2j: using qwi measures to construct job to job flow measures
 
 Goal: 
+- create job to job flow measures
 
 # Reference:
 
