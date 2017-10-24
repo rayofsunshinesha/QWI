@@ -26,4 +26,8 @@
 ## before 1990s 
 
 - Arcades were jammed with people playing a new video game called Pac-Man.
-- Some of the most popular singers in the U.S. began recording "We Are the World," 
+- Some of the most popular singers in the U.S. began recording "We Are the World"
+
+## itq__oddities.do
+
+- create non-duplicate ui account records file
