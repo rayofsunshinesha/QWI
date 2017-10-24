@@ -9,9 +9,9 @@ set more off
 * global references $xxx defines path options below
 * global reference $TEMP uses available memory for temp files
 * global references $xxx defines path options below
-global log "/workshop/pgm/wr/log"
-global impwr "/workshop/dproducts/wr/itw"
-global dpr "/workshop/dproducts/wr/itw"
+global log "/yourpath/yourfolder"
+global impwr "/yourpath/yourfolder"
+global dpr "/yourpath/yourfolder"
 
 log using "$log/oddities_itw.smcl", replace
 
