@@ -1,5 +1,4 @@
 * itq_main (20171006)
-* calls itq_secondary.do in response to user input
 * validate iles employer files, save dta
 
 clear
@@ -8,12 +7,12 @@ set more off
 
 * global reference $TEMP uses available memory for temp files
 * global references $xxx defines path options below
-global pgm "/workshop/pgm/wr"
-global log "/workshop/pgm/wr/log"
-global impa "/workshop/import/wr/ides_qcew"
-global impb "/workshop/import/wr/census_qcew"
-global impc "/workshop/import/wr/census_qcew"
-global dpr "/workshop/dproducts/wr/itq"
+global pgm "/yourpath/yourfolder"
+global log "/yourpath/yourfolder"
+global impa "/yourpath/yourfolder"
+global impb "/yourpath/yourfolder"
+global impc "/yourpath/yourfolder"
+global dpr "/yourpath/yourfolder"
 
 **log using "$log/itq_view.smcl", replace
 
