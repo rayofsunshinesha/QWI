@@ -24,13 +24,13 @@ Goal:
 - construct measures that mark different type of employment for the job at time t
 - refine measures through predecessor-successor processing
 
-### qwi_aztec.do
+### 3.1 qwi_aztec.do
 process itq & itq to get ready
-### qwi_celtic.do
+### 3.2 qwi_celtic.do
 build qwi-wide-shaped records, longitudinal information across date-referenced fields
-### qwi_egyptian.do
+### 3.3 qwi_egyptian.do
 produce initial qwi measures
-### predecessor-successor sequence
+### 3.4 predecessor-successor sequence
 qwi_spartan.do 
 qwi_viking.do
 
