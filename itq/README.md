@@ -4,7 +4,7 @@
 - Different era has different data collecting methods. Therefore, we have different .do files to read in different time period of files.
 - Goal: to read in files in its correct format
 
-## version: final/prelim/prelim prelim files
+## Versions: final/prelim/prelim prelim files
 
 - There are 3 versions of each quarterly file
 - final file name *yyqq*, exp *0604*
