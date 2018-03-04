@@ -3,7 +3,7 @@ Quarterly Workforce Indicator
 
 # QWI is a part of Longitudinal Employer-Household Dynamics from census
 
-We develop a series of code using STATA to process raw QCEW and Wage record to construct QWI measures at the state level. 
+We developed a series of code using STATA to process raw QCEW and Wage record to construct QWI measures at the state level. 
 
 ## 1. itq: procecss QCEW files
 
@@ -20,8 +20,8 @@ Goal:
 ## 3. qwi: combine itq and itw results to construct qwi indicators
 
 Goal: 
-- reshape the date and link job at t from t-4 to t+1
-- construct measures that mark different type of employment for the job at time t
+- reshape the data and link job at t from t-4 to t+1
+- construct measures that mark different types of employment for the job at time t
 - refine measures through predecessor-successor processing
 
 ### 3.1 qwi_aztec.do
@@ -53,9 +53,8 @@ Goal:
 
 # Reference:
 
-If you want to learn qwi concept, [qwi 101](https://lehd.ces.census.gov/doc/QWI_101.pdf) is a complete documentation. 
+If you want to learn the qwi concept, [qwi 101](https://lehd.ces.census.gov/doc/QWI_101.pdf) is a complete documentation. 
 For a jump start, we suggest starts with page 10 graph. 
 
-If you want to check out the qwi data for each state, [qwi explore](https://qwiexplorer.ces.census.gov/static/explore.html#x=0&g=0) provide the tool to download data. 
+If you want to check out the qwi data for each state, [qwi explore](https://qwiexplorer.ces.census.gov/static/explore.html#x=0&g=0) provides the tool to download data. 
 
-Citation:
